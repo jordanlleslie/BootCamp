@@ -1,0 +1,147 @@
+body {
+    background-color:#8ecae6;
+    font-family: Arial;
+}
+
+h1 {
+    color:#023047;
+    text-shadow: 3px 3px #ffb703;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 3px;
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:lowercase;
+    background-color: #219ebc;
+    height:100px;
+}
+
+h2, h3 {
+    color:#ffb703;
+    text-shadow: 2px 2px #023047;
+    text-align:left;
+    font-weight: bold;
+
+}
+
+p a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
+
+button {
+    font-size:15px;
+    color:#219ebc;
+    background-color:#023047;
+    font-weight:bolder;
+
+}
+
+#search {
+    text-align:center;
+    color:white;
+    background-color: #ffb703;
+}
+
+.test {
+    color:#023047;
+}
+
+li {
+    line-height: 125%;
+}
+
+li a {
+    color:#023047;
+}
+
+p a {
+    color:#023047;
+}
+
+#searchbar {
+    text-align:center;
+    color:#023047;
+}
+
+h1 + label {
+    font-weight:bold;
+}
+
+/* p + div button {
+    color:azure;
+} */
+
+footer > div {
+    text-decoration:none;
+    text-align:center;
+}
+
+table {
+    background-color:#219ebc;
+}
+
+th {
+    color:#023047;
+}
+
+td label {
+    font-weight:normal;
+}
+
+input[type="checkbox"] {
+    height:20px;
+    width:20px;
+}
+
+/* ol.test {
+    color:red;
+} */
+
+a:hover {
+    color:red;
+    text-decoration: underline red;
+}
+
+button:hover {
+    color:#8ecae6;
+}
+
+h2:hover {
+    text-shadow: 2px 2px #fb8500;
+}
+
+/* form label:hover {
+    color:#8ecae6;
+} */
+
+h1:active {
+    color:#ffb703;
+    text-shadow:3px 3px #023047;
+}
+
+/* h2:nth-of-type(2n) {
+    color:red;
+} */
+
+/* .paragraph:nth-of-type(2n) {
+    background-color:#7aacc4;
+} */
+
+/* h2 + p::first-line {
+    color:red;
+} */
+
+p::selection {
+    /* background-color:black;
+    color:white; */
+
+}
+
+/* li::before {
+    content: "bullet point: "
+} */
+

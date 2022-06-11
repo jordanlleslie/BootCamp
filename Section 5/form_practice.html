@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan's Form Practice</title>
+</head>
+
+<body>
+    <h1>Practicing Forms</h1>
+
+    <h2>Notice: this site works best when using Chrome.</h2>
+    <h3>Install Chrome <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwitpujg9tj3AhWNj2gJHTcGCF4YABAAGgJ3Zg&ei=oHJ8YujpNNGXlwS2_KaICQ&ohost=www.google.com&cid=CAESbOD2dTnGd_88kSE9POnubyOUQ9_IOJt9OJf1ujWmqKFvD8HF9XCvnQXeaVL1dzBO8IdJyUA6J9CXqpWXCYZzUFSGL5X_mNB6jM0-_8Z8ipmBsdsAe5R0hn27ribpNEC8KxqoffyCZ3Y5uWCDQg&sig=AOD64_0qRlzcLUZlUU2VmYuVjl20wk4vug&q&sqi=2&adurl&ved=2ahUKEwjoudzg9tj3AhXRy4UKHTa-CZEQ0Qx6BAgDEAE">here.</a></h3>
+
+    <p>
+        <a href=#jump>Jump to bottom of page</a>
+    </p>
+
+    <form action="/output.txt">
+        <button type="button">Button that will not submit form</button>
+        <div>
+            <label for="username">Enter Username</label>
+            <input type="text" placeholder="username" name="username" id="username">
+        </div>
+        <label for="password">Enter Password</label>
+        <input type="password" placeholder="password" name="password" id="password">
+        </div>
+        <p>
+            <input type="color">
+        </p>
+        <p>
+            <input type="number" placeholder="0" name="age">
+        </p>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <h2><i>YouTube</i> Search</h2>
+
+    <form action="https://www.youtube.com/results">
+        <p>
+            <label for="search_query">Search YouTube for a video:</label>
+            <input type="text" placeholder="video name" name="search_query">
+        </p>
+        <button>Submit</button>
+
+    </form>
+
+    <h2>Google Search</h2>
+
+    <form action="https://www.google.com/search">
+        <p>
+            <label for="q">Search Google:</label>
+            <input type="text" name="q">
+        </p>
+        <button>Search</button>
+    </form>
+
+    <h2>Experimenting with Other Inputs</h2>
+
+    <form action="/arbitrary">
+        <p>
+            <input type="checkbox" name="sub" id="sub" checked>
+            <label for="sub">Subscribe</label>
+        </p>
+        <p>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">I agree to the terms of service.</label>
+        </p>
+        <button>Submit</button>
+    </form>
+
+    <h2>Messing around with radio buttons</h2>
+
+    <form action="/arbitrary">
+        <div>Are you a handler or a cutter?</div>
+        <div>
+            <input type="radio" name="role" id="handler" value="handler">
+            <label for="handler">Handler</label>
+        </div>
+        <div>
+            <input type="radio" name="role" id="cutter" value="cutter">
+            <label for="cutter">Cutter</label>
+        </div>
+        <div>
+            <input type="radio" name="role" id="both" value="both">
+            <label for="both">Both</label>
+        </div>
+
+        <button>Submit</button>
+
+    </form>
+
+    <h2>Learning the Select Element</h2>
+    <form action="/arbitrary">
+        <p><label for="line">Do you primarily play offense or defense?</label></p>
+        <p><select name="line" id="line">
+                <option value="">--Please choose an option--</option>
+                <option value="o">Offense</option>
+                <option value="d" selected>Defense</option>
+                <option value="both">Both</option>
+            </select></p>
+        <p><label for="pos">Do you primarily cut or handle?</label></p>
+        <p>
+            <select name="position" id="pos">
+                <option value="">--Please choose an option--</option>
+                <option value="handler">Handle</option>
+                <option value="cutter">Cut</option>
+                <option value="both">Both</option>
+            </select>
+        </p>
+
+        <p><label for="conf">How confident are you in your abilities?</label></p>
+        <p>
+            <input type="range" id="conf" name="confidence" min="1" max="10" step="1" value="6">
+        </p>
+        <p><label for="random_no">Random Number!</label></p>
+        <input type="number" name="random" id="random_no" min="100" max="10000" step="100" value="1000">
+
+        <p><label for="questions">Do you have any questions?</label></p>
+        <div><textarea name="questions" id="questions" cols="30" rows="5"
+                placeholder="type your questions here"></textarea></div>
+
+        <p><button>Submit</button></p>
+    </form>
+
+    <h2 id="jump">Playing with Validations</h2>
+    <form action="/arbitrary">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="name" required minlength="1" maxlength="20">
+        </div>
+        <div>
+            <label for="nick">Preferred Name</label>
+            <input type="text" id="nick" name="preferred_name" placeholder="preferred name" minlength="1">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" required id="email" name="email" placeholder="email">
+        </div>
+        <div><label for="u">Username</label>
+            <input type="text" id="u" name="username" placeholder="username" required>
+        </div>
+        <div>
+            <label for="p">Password</label>
+            <input type="password" id="p" name="password" placeholder="password" required minlength="10">
+        </div>
+        <div>
+            <label for="requests">Do you have any special requests?</label>
+            <p>
+                <textarea name="requests" id="requests" cols="20" rows="5" placeholder="type something here"
+                    ></textarea>
+            </p>
+        </div>
+        <p>
+            <button>Submit Form</button>
+        </p>
+
+    </form>
+
+
+
+</body>
+
+</html>

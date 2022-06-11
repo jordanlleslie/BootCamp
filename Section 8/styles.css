@@ -1,0 +1,62 @@
+div {
+    width: 200px;
+    height:200px;
+}
+
+#one {
+    background-color: #dde5b6;
+    border: red solid 5px;
+    /* box-sizing: border-box; */
+    /* box-sizing: content-box; */
+    margin: 10px 0px;
+    /* margin-left: 50%; */
+}
+
+#two {
+    background-color: #f0ead2;
+    border: blue solid 5px;
+    /* border: blue inset 20px; */
+    /* border-style: dashed dashed none none; */
+    /* border-left-color:black; */
+    margin: 10px 0px;
+}
+
+#three {
+    background-color: #dad7cd;
+    border: green dotted 5px;
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    text-align:center;
+    margin: 10px 0px;
+}
+
+#juice {
+    border-radius:50%;
+    width: 400px;
+    height:400px;
+    border: solid orange 10px;
+}
+
+h1 {
+    background-color:#f0ead2;
+    padding: 30px 0px 30px 30px;
+    margin: 0;
+
+    /* Changing individual sides: */
+      /* padding-bottom: 50px; */
+  
+    /* All 4 at once:  */
+      /* padding: 10px; */
+
+    /* Vertical | horizontal */
+    /* padding: 10px 0px; */
+
+    }
+
+    button {
+        padding:10px;
+    }
+
+    body {
+        margin:0;
+    }

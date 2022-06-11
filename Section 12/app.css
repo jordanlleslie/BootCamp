@@ -1,0 +1,41 @@
+body {
+    margin: 0.5rem 1rem 0;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+
+h1 {
+    /* background-color:rgb(171, 171, 206);
+    padding:0.5rem 0;
+    border: 2px solid rgb(34,34,110);
+    width:50%;
+    text-align:center;
+    margin:1rem 25%;
+    border-radius: 10px;
+    letter-spacing: 0.1rem; */
+}
+
+#hello {
+    font-size:1em;
+    box-sizing:border-box;
+    border-radius:10px;
+}
+
+#button-container {
+    display:flex;
+    margin:1rem 0rem;
+    padding:0;
+}
+
+.btn.btn-light, .btn.btn-dark, .filler {
+    flex-grow:1;
+    margin: 1rem 0rem;
+    flex-basis:5px;
+}
+
+.btn.btn-dark, .btn.btn-light {
+    flex-grow:2;
+}
+
+.filler {
+    flex-shrink:5;
+}

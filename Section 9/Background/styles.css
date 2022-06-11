@@ -1,0 +1,30 @@
+section {
+    width: 90%;
+    height: 800px;
+    background-image: url(https://images.unsplash.com/photo-1653161926463-725f4b39a739?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771);
+    background-size: cover;
+    margin:5%;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size:100px;
+    color:white;
+    text-align:center;
+    padding-top:0.5em;
+    margin: 0.5em;
+}
+
+div {
+    width:80%;
+    font-size: 1.5rem;
+    color:white;
+    margin:auto;
+    font-weight:400;
+}
+
+.back {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 2rem;
+}

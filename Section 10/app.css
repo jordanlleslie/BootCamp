@@ -1,0 +1,41 @@
+body {
+    margin:0;
+    font-family: 'Inconsolata', monospace;
+    background-color: #cce3de;
+}
+
+nav {
+    margin:2.5%;
+    width:95%;
+    height:4rem;
+    padding:0.5rem;
+    border: 0.1rem solid #6b9080;
+    background-color: #f6fff8;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+nav div {
+    width: 10rem;  
+    padding:1em;
+    text-align:center;
+    transition: 0.2s all;
+}
+
+nav div:hover {
+    text-decoration: underline #6b9080;
+}
+
+nav div:active {
+    transform: translateY(-0.25rem);
+    cursor:pointer;
+    box-shadow: 0px 4px 3px #6b9080;
+}
+
+h1, h2 {
+    padding: 0em 1em;
+    text-align:center;
+    letter-spacing: 0.2em;
+}

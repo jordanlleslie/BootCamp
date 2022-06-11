@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+</head>
+
+<body>
+
+    <h1>Table Practice</h1>
+    <h2>Frisbee Teams in Atlanta</h2>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th scope="col">Team Name</th>
+                <th scope="col">Rank/Seed</th>
+                <th scope="col">Nationals Qualifier</th>
+                <th scope="col">Beat Yeehaw</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Chain Lightning</td>
+                <td>1/1</td>
+                <td>Yes</td>
+                <td>No</td>
+            </tr>
+
+            <tr>
+                <td>Rush Hour</td>
+                <td>4/3</td>
+                <td>No</td>
+                <td>No</td>
+            </tr>
+
+            <tr>
+                <td>Yeehaw</td>
+                <td>2/2</td>
+                <td>No</td>
+                <td></td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <h2>Version 2.0</h2>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2">Team Name</th>
+                <th scope="col" colspan="2" >Place</th>
+                <th scope="col" rowspan="2">Beat Yeehaw</th>
+            </tr>
+            <tr>
+                <th scope="col">Rank</th>
+                <th scope="col">Seed</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Chain Lightning</td>
+                <td>1</td>
+                <td>1</td>
+                <td>No</td>
+            </tr>
+
+            <tr>
+                <td>Rush Hour</td>
+                <td>4</td>
+                <td>3</td>
+                <td>No</td>
+            </tr>
+
+            <tr>
+                <td>Yeehaw</td>
+                <td>2</td>
+                <td>2</td>
+                <td></td>
+            </tr>
+        </tbody>
+
+    </table>
+
+<h2>Random Table Practice</h2>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+                <td rowspan="4">Company Founder</td>
+            </tr>
+            <tr>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>Mark Zuckerberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr colspan="4">
+                <td colspan="3">Total Expense:</td>
+                <td>$4600</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+
+</html>
